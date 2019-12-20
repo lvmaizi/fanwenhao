@@ -100,13 +100,33 @@
             <artifactId>drools-compiler</artifactId>
             <version>7.29.0.Final</version>
         </dependency>
+        <dependency>
+            <groupId>org.kie</groupId>
+            <artifactId>kie-api</artifactId>
+            <version>7.29.0.Final</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.kie.server/kie-server-api -->
+        <dependency>
+            <groupId>org.kie.server</groupId>
+            <artifactId>kie-server-api</artifactId>
+            <version>7.29.0.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.kie.server</groupId>
+            <artifactId>kie-server-client</artifactId>
+            <version>7.29.0.Final</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/com.espertech/esper -->
         <dependency>
             <groupId>com.espertech</groupId>
             <artifactId>esper</artifactId>
             <version>7.1.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>work.bench</groupId>
+            <artifactId>apv-model</artifactId>
+            <version>1.0.0</version>
+        </dependency>
 
 
     </dependencies>

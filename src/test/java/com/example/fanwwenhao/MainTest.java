@@ -16,5 +16,17 @@ public class MainTest {
         System.out.println(String.class.getResource("/"));
         JvmTest.main(new String[2]);
         System.out.println("888");
+        ThreadGroup threadGroup = Thread.currentThread().getThreadGroup();
+        Thread thread = new Thread(()->{
+            ThreadGroup threadGroupq = Thread.currentThread().getThreadGroup();
+            try {
+                Thread.sleep(10000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("tttt"+threadGroup.getName());
+        });
+        thread.start();
+        System.out.println("jjj");
     }
 }
