@@ -1,0 +1,33 @@
+//created on: 2020-1-7
+package com.tets
+
+//list any import classes here.
+
+
+
+//declare any global variables here
+
+
+
+
+rule "Your First Rule"
+
+	ruleflow-group "age-check-group"
+	
+    when
+        //conditions
+    then
+        //actions
+        System.out.print("111");
+
+end
+
+rule "Your Second Rule"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+        System.out.print("111");
+
+end

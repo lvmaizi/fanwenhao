@@ -8,8 +8,14 @@ package com.example.fanwwenhao.arithmetic.leedCode;
 public class _101_ {
     class TreeNode {
         int val;
-        com.example.fanwwenhao.arithmetic.leedCode.TreeNode left;
-        com.example.fanwwenhao.arithmetic.leedCode.TreeNode right;
+        TreeNode left;
+        TreeNode right;
         TreeNode(int x) { val = x; }
+    }
+    public boolean isSymmetric(TreeNode root) {
+        return true;
+    }
+    public boolean isTreeSymmetric(TreeNode root1,TreeNode root2) {
+        if(root1!=null){}return false;
     }
 }

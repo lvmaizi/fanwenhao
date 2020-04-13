@@ -1,0 +1,2101 @@
+{
+    "ReportDescribe": {
+        "QueryReason": "贷款审批",
+        "NoRequiredReport": false,
+        "CertType": "身份证",
+        "QueryTime": "2015/02/09 21:04:38",
+        "Name": "张李五",
+        "OperateUser": "gsh",
+        "OperateOrg": "中国工商银行",
+        "ReportCreateTime": "2015/02/09 21:04:39",
+        "ReportNo": "2015020900001934718780",
+        "ParseOrSaveFailed": false,
+        "QueryMode": "Online",
+        "ReportPath": "/home/amarsoft/CRQ/ReportDownload/ICR/20160119/1453168031411.html",
+        "CertNo": "110108195805175419",
+        "ReportType": "ICR",
+        "ReportDefVersionNo": "ICR002"
+    },
+    "ReportNo": "2015020900001934718780",
+    "ReportData": {
+        "PartList": [
+            {
+                "Content": [
+                    {
+                        "ReportCreateTime": "2015.02.09 21:04:39",
+                        "ReportNo": "2015020900001934718780",
+                        "QueryTime": "2015.02.09 21:04:38"
+                    }
+                ],
+                "Name": "MessageHeader"
+            },
+            {
+                "Content": [
+                    {
+                        "ReportNo": "2015020900001934718780",
+                        "QueryReason": "贷款审批",
+                        "UserCode": "中国工商银行/gsh",
+                        "Certtype": "身份证",
+                        "Certno": "110108195805175419",
+                        "Name": "张李五"
+                    }
+                ],
+                "Name": "QueryReq"
+            },
+            {
+                "ChapterList": [
+                    {
+                        "Content": [
+                            {
+                                "OfficeTelephoneNo": "93333333",
+                                "PostAddress": "湖南长沙路",
+                                "ReportNo" : "2015020900001934718780",
+                                "RegisteredAddress": "湖南长沙",
+                                "MaritalState": "已婚",
+                                "Birthday": "2006.03.30",
+                                "Gender": "男性",
+                                "EduLevel": "小学",
+                                "EduDegree": "其他",
+                                "Mobile": "95555555555",
+                                "HomeTelephoneNo": "92222222"
+                            }
+                        ],
+                        "Name": "Identity"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "ReportNo": "2015020900001934718780",
+                                "Employer": "中国某地",
+                                "Certtype": "身份证",
+                                "Certno": "966666666666666666",
+                                "TelephoneNo": "97777777777",
+                                "Name": "中国人"
+                            }
+                        ],
+                        "Name": "Spouse"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "ResidenceType": "自置",
+                                "SerialNo": "20160119000001",
+                                "ReportNo": "2015020900001934718780",
+                                "Address": "美国",
+                                "GetTime": "2012.07.06"
+                            },
+                            {
+                                "ResidenceType": "--",
+                                "SerialNo": "20160119000002",
+                                "ReportNo": "2015020900001934718780",
+                                "Address": "湖南长沙北京路",
+                                "GetTime": "2012.07.06"
+                            },
+                            {
+                                "ResidenceType": "--",
+                                "SerialNo": "20160119000003",
+                                "ReportNo": "2015020900001934718780",
+                                "Address": "八冥王星",
+                                "GetTime": "2012.07.05"
+                            },
+                            {
+                                "ResidenceType": "自置",
+                                "SerialNo": "20160119000004",
+                                "ReportNo": "2015020900001934718780",
+                                "Address": "河北石家庄",
+                                "GetTime": "2012.07.05"
+                            },
+                            {
+                                "ResidenceType": "--",
+                                "SerialNo": "20160119000005",
+                                "ReportNo": "2015020900001934718780",
+                                "Address": "西城区卢沟桥南里50楼三门301号",
+                                "GetTime": "2005.11.20"
+                            }
+                        ],
+                        "Name": "Residence"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "Industry": "教育",
+                                "SerialNo": "20160119000001",
+                                "Occupation": "国家机关、党群组织、企业、事业单位负责人",
+                                "ReportNo": "2015020900001934718780",
+                                "EmployerAddress": "美国",
+                                "Employer": "学校",
+                                "Duty": "中级领导（行政级别局级以下领导或大公司中级管理人员）",
+                                "StartYear": "--",
+                                "Title": "高级",
+                                "GetTime": "2012.07.06"
+                            },
+                            {
+                                "Industry": "文化、体育和娱乐业",
+                                "SerialNo": "20160119000002",
+                                "Occupation": "商业、服务业人员",
+                                "ReportNo": "2015020900001934718780",
+                                "EmployerAddress": "长沙某路",
+                                "Employer": "湖南长沙琴岛",
+                                "Duty": "一般员工",
+                                "StartYear": "2006",
+                                "Title": "无",
+                                "GetTime": "2012.07.06"
+                            },
+                            {
+                                "Industry": "金融业",
+                                "SerialNo": "20160119000003",
+                                "Occupation": "办事人员和有关人员",
+                                "ReportNo": "2015020900001934718780",
+                                "EmployerAddress": "不知道",
+                                "Employer": "建行",
+                                "Duty": "一般员工",
+                                "StartYear": "1998",
+                                "Title": "初级",
+                                "GetTime": "2012.07.05"
+                            },
+                            {
+                                "Industry": "文化、体育和娱乐业",
+                                "SerialNo": "20160119000004",
+                                "Occupation": "商业、服务业人员",
+                                "ReportNo": "2015020900001934718780",
+                                "EmployerAddress": "八好了吧",
+                                "Employer": "八真好了吗",
+                                "Duty": "其他",
+                                "StartYear": "2006",
+                                "Title": "无",
+                                "GetTime": "2012.07.05"
+                            },
+                            {
+                                "Industry": "科学研究、技术服务业和地质勘察业",
+                                "SerialNo": "20160119000005",
+                                "Occupation": "商业、服务业人员",
+                                "ReportNo": "2015020900001934718780",
+                                "EmployerAddress": "北京市方庄东路55号",
+                                "Employer": "北京盛盛盛能机电技术有限公司",
+                                "Duty": "中级领导（行政级别局级以下领导或大公司中级管理人员）",
+                                "StartYear": "2004",
+                                "Title": "中级",
+                                "GetTime": "2005.11.20"
+                            }
+                        ],
+                        "Name": "Professional"
+                    }
+                ],
+                "Name": "PersonalInfo"
+            },
+            {
+                "ChapterList": [
+                    {
+                        "Content": [
+                            {
+                                "FirstLoanOpenMonth": "2004.08",
+                                "AnnounceCount": 6,
+                                "ReportNo": "2015020900001934718780",
+                                "LoancardCount": 7,
+                                "FirstStandardLoancardOpenMonth": "2004.04",
+                                "FirstLoancardOpenMonth": "2004.05",
+                                "DissentCount": 6,
+                                "StandardLoancardCount": 7,
+                                "OtherLoanCount": 4,
+                                "CHouseLoanCount": 1,
+                                "HouseLoanCount": 2
+                            }
+                        ],
+                        "Name": "CreditCue"
+                    },
+                    {
+                        "SectionList": [
+                            {
+                                "Content": [
+                                    {
+                                        "ReportNo": "2015020900001934718780",
+                                        "Count3": 1,
+                                        "Count2": 2,
+                                        "Balance3": 5000,
+                                        "Balance2": 17000,
+                                        "Count": 3,
+                                        "Balance": 200000
+                                    }
+                                ],
+                                "Name": "FellbackSummary"
+                            },
+                            {
+                                "Content": [
+                                    {
+                                        "MaxDuration3": 7,
+                                        "MaxDuration2": 7,
+                                        "HighestOverdueAmountPerMon2": 60000,
+                                        "Count3": 4,
+                                        "Count2": 3,
+                                        "Months": 7,
+                                        "MaxDuration": 3,
+                                        "HighestOverdueAmountPerMon": 11000,
+                                        "Count": 3,
+                                        "Months3": 8,
+                                        "Months2": 19,
+                                        "ReportNo": "2015020900001934718780",
+                                        "HighestOverdueAmountPerMon3": 50500
+                                    }
+                                ],
+                                "Name": "OverdueSummary"
+                            }
+                        ],
+                        "Name": "OverdueAndFellback"
+                    },
+                    {
+                        "SectionList": [
+                            {
+                                "Content": [
+                                    {
+                                        "ReportNo": "2015020900001934718780",
+                                        "FinanceCorpCount": 3,
+                                        "CreditLimit": 1710000,
+                                        "Latest6MonthUsedAvgAmount": 0,
+                                        "FinanceOrgCount": 4,
+                                        "Balance": 952000,
+                                        "AccountCount": 4
+                                    }
+                                ],
+                                "Name": "UnpaidLoan"
+                            },
+                            {
+                                "Content": [
+                                    {
+                                        "MinCreditLimitPerOrg": 60000,
+                                        "UsedCreditLimit": 95500,
+                                        "ReportNo": "2015020900001934718780",
+                                        "FinanceCorpCount": 2,
+                                        "MaxCreditLimitPerOrg": 300000,
+                                        "CreditLimit": 610000,
+                                        "Latest6MonthUsedAvgAmount": 0,
+                                        "FinanceOrgCount": 3,
+                                        "AccountCount": 5
+                                    }
+                                ],
+                                "Name": "UndestoryLoancard"
+                            },
+                            {
+                                "Content": [
+                                    {
+                                        "MinCreditLimitPerOrg": 60000,
+                                        "UsedCreditLimit": 65500,
+                                        "ReportNo": "2015020900001934718780",
+                                        "FinanceCorpCount": 2,
+                                        "MaxCreditLimitPerOrg": 500000,
+                                        "CreditLimit": 710000,
+                                        "Latest6MonthUsedAvgAmount": 0,
+                                        "FinanceOrgCount": 3,
+                                        "AccountCount": 5
+                                    }
+                                ],
+                                "Name": "UndestoryStandardLoancard"
+                            },
+                            {
+                                "Content": [
+                                    {
+                                        "ReportNo": "2015020900001934718780",
+                                        "Amount": 110000,
+                                        "Count": 3,
+                                        "Balance": 6000
+                                    }
+                                ],
+                                "Name": "GuaranteeSummary"
+                            }
+                        ],
+                        "Name": "ShareAndDebt"
+                    }
+                ],
+                "Name": "InfoSummary"
+            },
+            {
+                "ChapterList": [
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "Organname": "QA",
+                                "Money": 11000,
+                                "ReportNo": "2015020900001934718780",
+                                "GetTime": "2000.01.01",
+                                "LatestRepayDate": "2012.01.01",
+                                "Balance": 10000
+                            },
+                            {
+                                "SerialNo": "20160119000002",
+                                "Organname": "QA",
+                                "Money": 11000,
+                                "ReportNo": "2015020900001934718780",
+                                "GetTime": "2000.01.01",
+                                "LatestRepayDate": "2012.04.01",
+                                "Balance": 7000
+                            }
+                        ],
+                        "Name": "AssetDisposition"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "Organname": "ZE",
+                                "Money": 80000,
+                                "ReportNo": "2015020900001934718780",
+                                "LatestAssurerRepayDate": "2012.06.01",
+                                "LatestRepayDate": "2014.09.01",
+                                "Balance": 5000
+                            }
+                        ],
+                        "Name": "AssurerRepay"
+                    },
+                    {
+                        "RelativeField": "Account",
+                        "SectionListMap": {
+                            "Biz00041453168031761": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00041453168031761",
+                                            "LoanType": "个人助学贷款",
+                                            "OpenDate": "2007.10.29",
+                                            "CueSerialNo": "4",
+                                            "PaymentRating": "一次性归还",
+                                            "RecentPayDate": "2011.06.09",
+                                            "Cue": "2007年10月29日商业银行*--*发放的10,000元（人民币）个人助学贷款，业务号X，信用/免担保，一次性归还，2011年12月28日到期。截至2011年06月30日，",
+                                            "ReportNo": "2015020900001934718780",
+                                            "PaymentCyc": "-",
+                                            "CurrOverdueAmount": 0,
+                                            "CreditLimitAmount": 10000,
+                                            "Currency": "人民币",
+                                            "ScheduledPaymentAmount": 1000,
+                                            "SerialNo": "20160119000004",
+                                            "FinanceType": "商业银行",
+                                            "Overdue31To60Amount": 0,
+                                            "Overdue61To90Amount": 0,
+                                            "Class5State": "正常",
+                                            "ScheduledPaymentDate": "2011.06.30",
+                                            "ActualPaymentAmount": 1000,
+                                            "CurrOverdueCyc": 0,
+                                            "Overdue91To180Amount": 0,
+                                            "BeginMonth": "2009.07",
+                                            "EndDate": "2011.12.28",
+                                            "FinanceOrg": "--",
+                                            "EndMonth": "2011.06",
+                                            "StateEndDate": "2011.06.30",
+                                            "GuaranteeType": "信用/免担保",
+                                            "State": "正常",
+                                            "OverdueOver180Amount": 0,
+                                            "Latest24State": "***********************N",
+                                            "Balance": 2000
+                                        }
+                                    ],
+                                    "Name": "LoanInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_Loan"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_Loan"
+                                },
+                                {
+                                    "Name": "SpecialTrade_Loan"
+                                },
+                                {
+                                    "Name": "BankIlluminate_Loan"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loan"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_Loan"
+                                }
+                            ],
+                            "Biz00061453168031781": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00061453168031781",
+                                            "SerialNo": "20160119000006",
+                                            "FinanceType": "商业银行",
+                                            "LoanType": "个人助学贷款",
+                                            "OpenDate": "2005.01.12",
+                                            "CueSerialNo": "6",
+                                            "EndDate": "-",
+                                            "PaymentRating": "不定期归还",
+                                            "FinanceOrg": "--",
+                                            "Cue": "2005年01月12日商业银行*--*发放的50, 000元（人民币）个人助学贷款，业务号X，信用/免担保，不定期归还。截至2011年08月02日，账户状态为*结清*。",
+                                            "ReportNo": "2015020900001934718780",
+                                            "PaymentCyc": "-",
+                                            "StateEndDate": "2011.08.02",
+                                            "GuaranteeType": "信用/免担保",
+                                            "CreditLimitAmount": 50000,
+                                            "State": "结清",
+                                            "Currency": "人民币"
+                                        }
+                                    ],
+                                    "Name": "LoanInfo"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00061453168031781",
+                                            "EndMonth": "2011.08.",
+                                            "ReportNo": "2015020900001934718780",
+                                            "BeginMonth": "2010.03."
+                                        }
+                                    ],
+                                    "Name": "Latest5YearOverduesection_Loan"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00061453168031781",
+                                            "SerialNo": "20160119000007",
+                                            "Month": "2011.07",
+                                            "ReportNo": "2015020900001934718780",
+                                            "LastMonths": 2,
+                                            "Amount": 2000
+                                        },
+                                        {
+                                            "Account": "Biz00061453168031781",
+                                            "SerialNo": "20160119000008",
+                                            "Month": "2011.06",
+                                            "ReportNo": "2015020900001934718780",
+                                            "LastMonths": 1,
+                                            "Amount": 1000
+                                        }
+                                    ],
+                                    "Name": "Latest5YearOverdueDetail_Loan"
+                                },
+                                {
+                                    "Name": "SpecialTrade_Loan"
+                                },
+                                {
+                                    "Name": "BankIlluminate_Loan"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loan"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_Loan"
+                                }
+                            ],
+                            "0203000101240014413": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "0203000101240014413",
+                                            "SerialNo": "20160119000001",
+                                            "FinanceType": "商业银行",
+                                            "LoanType": "个人住房贷款",
+                                            "OpenDate": "2012.10.20",
+                                            "CueSerialNo": "1",
+                                            "EndDate": "2020.10.20",
+                                            "PaymentRating": "按月归还，2020年10月20日到期",
+                                            "FinanceOrg": "中国工商银行北京市分行",
+                                            "Cue": "2012年10月20日商业银行*中国工商银行北京市分行*发放的500,000元（美元折人民币）个人住房贷款，业务号0203000101240014413，质押（含保证金）担保，180期，按月归还，2020年10月20日到期。截至2014年11月05日，账户状态为*呆账*，余额为150,000元。",
+                                            "ReportNo": "2015020900001934718780",
+                                            "PaymentCyc": "180期",
+                                            "StateEndDate": "2014.11.05",
+                                            "GuaranteeType": "质押（含保证金）担保",
+                                            "CreditLimitAmount": 500000,
+                                            "State": "呆账",
+                                            "Currency": "美元折人民币",
+                                            "Balance": 150000
+                                        }
+                                    ],
+                                    "Name": "LoanInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_Loan"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_Loan"
+                                },
+                                {
+                                    "Name": "SpecialTrade_Loan"
+                                },
+                                {
+                                    "Name": "BankIlluminate_Loan"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loan"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_Loan"
+                                }
+                            ],
+                            "Biz00051453168031781": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00051453168031781",
+                                            "SerialNo": "20160119000005",
+                                            "FinanceType": "商业银行",
+                                            "LoanType": "个人商用房（包括商住两用）贷款",
+                                            "OpenDate": "2012.07.12",
+                                            "CueSerialNo": "5",
+                                            "EndDate": "2011.08.11",
+                                            "PaymentRating": "不定期归还",
+                                            "FinanceOrg": "--",
+                                            "Cue": "2012年07月12日商业银行*--*发放的50,                                            000元（人民币）个人商用房（包括商住两用）贷款，业务号X，信用/免担保，不定期归还，2011年08月11日到期。截至2006年08月02日，账户状态为*转出*。",
+                                            "ReportNo": "2015020900001934718780",
+                                            "PaymentCyc": "-",
+                                            "StateEndDate": "2006.08.02",
+                                            "GuaranteeType": "信用/免担保",
+                                            "CreditLimitAmount": 50000,
+                                            "State": "转出",
+                                            "Currency": "人民币"
+                                        }
+                                    ],
+                                    "Name": "LoanInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_Loan"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_Loan"
+                                },
+                                {
+                                    "Name": "SpecialTrade_Loan"
+                                },
+                                {
+                                    "Name": "BankIlluminate_Loan"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loan"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_Loan"
+                                }
+                            ],
+                            "BC05": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "BC05",
+                                            "LoanType": "农户贷款",
+                                            "OpenDate": "2005.04.12",
+                                            "RemainPaymentCyc": 19,
+                                            "CueSerialNo": "3",
+                                            "PaymentRating": "按半年归还，2020年04月12日到期",
+                                            "RecentPayDate": "2014.08.05",
+                                            "Cue": "2005年04月12日商业银行*中国工商银行上海市分行*发放的600,000元（人民币）农户贷款，业务号BC05，质押（含保证金）担保，30期，按半年归还，2020年04月12日到期。截至2014年08月05日，",
+                                            "ReportNo": "2015020900001934718780",
+                                            "PaymentCyc": "30期",
+                                            "CurrOverdueAmount": 0,
+                                            "CreditLimitAmount": 600000,
+                                            "Currency": "人民币",
+                                            "ScheduledPaymentAmount": 4055,
+                                            "SerialNo": "20160119000002",
+                                            "FinanceType": "商业银行",
+                                            "Overdue31To60Amount": 0,
+                                            "Overdue61To90Amount": 0,
+                                            "Class5State": "正常",
+                                            "ScheduledPaymentDate": "2014.08.05",
+                                            "ActualPaymentAmount": 4055,
+                                            "CurrOverdueCyc": 0,
+                                            "Overdue91To180Amount": 0,
+                                            "BeginMonth": "2012.09",
+                                            "EndDate": "2020.04.12",
+                                            "FinanceOrg": "中国工商银行上海市分行",
+                                            "EndMonth": "2014.08",
+                                            "StateEndDate": "2014.08.05",
+                                            "GuaranteeType": "质押（含保证金）担保",
+                                            "State": "正常",
+                                            "OverdueOver180Amount": 0,
+                                            "Latest24State": "NNNNNNNNNNNNNNNNNNNNNNNN",
+                                            "Balance": 400000
+                                        }
+                                    ],
+                                    "Name": "LoanInfo"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "BC05",
+                                            "EndMonth": "2012.08.",
+                                            "ReportNo": "2015020900001934718780",
+                                            "BeginMonth": "2005.04."
+                                        }
+                                    ],
+                                    "Name": "Latest5YearOverduesection_Loan"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "BC05",
+                                            "SerialNo": "20160119000001",
+                                            "Month": "2010.05",
+                                            "ReportNo": "2015020900001934718780",
+                                            "LastMonths": 2,
+                                            "Amount": 8000
+                                        },
+                                        {
+                                            "Account": "BC05",
+                                            "SerialNo": "20160119000002",
+                                            "Month": "2010.03",
+                                            "ReportNo": "2015020900001934718780",
+                                            "LastMonths": 1,
+                                            "Amount": 6000
+                                        }
+                                    ],
+                                    "Name": "Latest5YearOverdueDetail_Loan"
+                                },
+                                {
+                                    "Name": "SpecialTrade_Loan"
+                                },
+                                {
+                                    "Name": "BankIlluminate_Loan"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loan"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_Loan"
+                                }
+                            ],
+                            "Biz00021453168031671": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "LoanType": "个人住房贷款",
+                                            "OpenDate": "2008.08.05",
+                                            "RemainPaymentCyc": 111,
+                                            "CueSerialNo": "2",
+                                            "PaymentRating": "按月归还，2008年06月05日到期",
+                                            "RecentPayDate": "2014.12.05",
+                                            "Cue": "2008年08月05日商业银行*--*发放的600,000元（人民币）个人住房贷款，业务号X，抵押担保，180期，按月归还，2008年06月05日到期。截至2014年12月05日，",
+                                            "ReportNo": "2015020900001934718780",
+                                            "PaymentCyc": "180期",
+                                            "CurrOverdueAmount": 5500,
+                                            "CreditLimitAmount": 600000,
+                                            "Currency": "人民币",
+                                            "ScheduledPaymentAmount": 4055,
+                                            "SerialNo": "20160119000003",
+                                            "FinanceType": "商业银行",
+                                            "Overdue31To60Amount": 1000,
+                                            "Overdue61To90Amount": 0,
+                                            "Class5State": "损失",
+                                            "ScheduledPaymentDate": "2014.12.05",
+                                            "ActualPaymentAmount": 0,
+                                            "CurrOverdueCyc": 2,
+                                            "Overdue91To180Amount": 0,
+                                            "BeginMonth": "2013.01",
+                                            "EndDate": "2008.06.05",
+                                            "FinanceOrg": "--",
+                                            "EndMonth": "2014.12",
+                                            "StateEndDate": "2014.12.05",
+                                            "GuaranteeType": "抵押担保",
+                                            "State": "逾期",
+                                            "OverdueOver180Amount": 0,
+                                            "Latest24State": "23NNNNNNNNNNNNNNNNNNNN12",
+                                            "Balance": 400000
+                                        }
+                                    ],
+                                    "Name": "LoanInfo"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "EndMonth": "2012.12.",
+                                            "ReportNo": "2015020900001934718780",
+                                            "BeginMonth": "2008.08."
+                                        }
+                                    ],
+                                    "Name": "Latest5YearOverduesection_Loan"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000003",
+                                            "Month": "2011.08",
+                                            "ReportNo": "2015020900001934718780",
+                                            "LastMonths": 2,
+                                            "Amount": 5500
+                                        },
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000004",
+                                            "Month": "2011.07",
+                                            "ReportNo": "2015020900001934718780",
+                                            "LastMonths": 1,
+                                            "Amount": 9000
+                                        },
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000005",
+                                            "Month": "2010.05",
+                                            "ReportNo": "2015020900001934718780",
+                                            "LastMonths": 4,
+                                            "Amount": 4000
+                                        },
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000006",
+                                            "Month": "2010.03",
+                                            "ReportNo": "2015020900001934718780",
+                                            "LastMonths": 3,
+                                            "Amount": 3000
+                                        }
+                                    ],
+                                    "Name": "Latest5YearOverdueDetail_Loan"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000001",
+                                            "ChangingMonths": 10,
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "其他原因",
+                                            "TradeType": "其他",
+                                            "GetTime": "2014.09.22",
+                                            "ChangingAmount": 32000
+                                        },
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000002",
+                                            "ChangingMonths": 10,
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "展期10个月",
+                                            "TradeType": "展期（延期）",
+                                            "GetTime": "2014.12.22",
+                                            "ChangingAmount": 50000
+                                        }
+                                    ],
+                                    "Name": "SpecialTrade_Loan"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000001",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "本人一直在按时还款",
+                                            "GetTime": "2011.08.31"
+                                        },
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000002",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "贷款机构说明该笔业务有问题",
+                                            "GetTime": "2012.06.27"
+                                        },
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000003",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "本人声明",
+                                            "GetTime": "添加日期"
+                                        },
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000004",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "这个不合理哈",
+                                            "GetTime": "2014.12.01"
+                                        },
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000005",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "这是不正确滴",
+                                            "GetTime": "2014.12.01"
+                                        }
+                                    ],
+                                    "Name": "BankIlluminate_Loan"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loan"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000001",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "这个不合理哈",
+                                            "GetTime": "2014.12.01"
+                                        },
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000002",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "这是不正确滴",
+                                            "GetTime": "2014.12.01"
+                                        },
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000003",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "异议标注",
+                                            "GetTime": "添加日期"
+                                        },
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000004",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "此有争议444",
+                                            "GetTime": "2009.02.21"
+                                        },
+                                        {
+                                            "Account": "Biz00021453168031671",
+                                            "SerialNo": "20160119000005",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "此事不服呢",
+                                            "GetTime": "2014.03.13"
+                                        }
+                                    ],
+                                    "Name": "AnnounceInfo_Loan"
+                                }
+                            ],
+                            "Biz00071453168031791": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00071453168031791",
+                                            "SerialNo": "20160119000007",
+                                            "FinanceType": "商业银行",
+                                            "LoanType": "个人助学贷款",
+                                            "OpenDate": "2005.07.12",
+                                            "CueSerialNo": "7",
+                                            "EndDate": "-",
+                                            "PaymentRating": "不定期归还",
+                                            "FinanceOrg": "--",
+                                            "Cue": "2005年07月12日商业银行*--*发放的50000元（人民币）个人助学贷款，业务号X，信用/免担保，不定期归还。截至2006年09月02日，账户状态为*结清*。",
+                                            "ReportNo": "2015020900001934718780",
+                                            "PaymentCyc": "-",
+                                            "StateEndDate": "2006.09.02",
+                                            "GuaranteeType": "信用/免担保",
+                                            "CreditLimitAmount": 50000,
+                                            "State": "结清",
+                                            "Currency": "人民币"
+                                        }
+                                    ],
+                                    "Name": "LoanInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_Loan"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_Loan"
+                                },
+                                {
+                                    "Name": "SpecialTrade_Loan"
+                                },
+                                {
+                                    "Name": "BankIlluminate_Loan"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loan"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_Loan"
+                                }
+                            ]
+                        },
+                        "MainSection": "3.3.1",
+                        "Name": "Loan"
+                    },
+                    {
+                        "RelativeField": "Account",
+                        "SectionListMap": {
+                            "Biz00051453168031861": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00051453168031861",
+                                            "SerialNo": "20160119000005",
+                                            "FinanceType": "商业银行",
+                                            "bizType": "贷记卡",
+                                            "OpenDate": "2005.08.12",
+                                            "CueSerialNo": "5",
+                                            "FinanceOrg": "--",
+                                            "Cue": "2005年08月12日商业银行*--*发放的贷记卡（人民币账户），业务号X，授信额度50                                            000元，共享授信额度50                                            000元，抵押担保，截至2011年08月05日，账户状态为*销户*。",
+                                            "ReportNo": "2015020900001934718780",
+                                            "StateEndDate": "2011.08.05",
+                                            "GuaranteeType": "信用/免担保",
+                                            "CreditLimitAmount": 50000,
+                                            "ShareCreditLimitAmount": 50000,
+                                            "State": "销户",
+                                            "Currency": "人民币"
+                                        }
+                                    ],
+                                    "Name": "LoancardInfo"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00051453168031861",
+                                            "EndMonth": "2011.08.",
+                                            "ReportNo": "2015020900001934718780",
+                                            "BeginMonth": "2010.03."
+                                        }
+                                    ],
+                                    "Name": "Latest5YearOverduesection_Loancard"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00051453168031861",
+                                            "SerialNo": "20160119000009",
+                                            "Month": "2011.07",
+                                            "ReportNo": "2015020900001934718780",
+                                            "LastMonths": 2,
+                                            "Amount": 2000
+                                        },
+                                        {
+                                            "Account": "Biz00051453168031861",
+                                            "SerialNo": "20160119000010",
+                                            "Month": "2011.06",
+                                            "ReportNo": "2015020900001934718780",
+                                            "LastMonths": 1,
+                                            "Amount": 1000
+                                        }
+                                    ],
+                                    "Name": "Latest5YearOverdueDetail_Loancard"
+                                },
+                                {
+                                    "Name": "SpecialTrade_Loancard"
+                                },
+                                {
+                                    "Name": "BankIlluminate_Loancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loancard"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_Loancard"
+                                }
+                            ],
+                            "Biz00061453168031861": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00061453168031861",
+                                            "SerialNo": "20160119000006",
+                                            "FinanceType": "商业银行",
+                                            "bizType": "贷记卡",
+                                            "OpenDate": "2005.04.12",
+                                            "CueSerialNo": "6",
+                                            "FinanceOrg": "--",
+                                            "Cue": "2005年04月12日商业银行*--*发放的贷记卡（人民币账户），业务号X，授信额度50                                            000元，共享授信额度50                                            000元，抵押担保，截至2005年09月05日，账户状态为*销户*。",
+                                            "ReportNo": "2015020900001934718780",
+                                            "StateEndDate": "2005.09.05",
+                                            "GuaranteeType": "信用/免担保",
+                                            "CreditLimitAmount": 50000,
+                                            "ShareCreditLimitAmount": 50000,
+                                            "State": "销户",
+                                            "Currency": "人民币"
+                                        }
+                                    ],
+                                    "Name": "LoancardInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_Loancard"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_Loancard"
+                                },
+                                {
+                                    "Name": "SpecialTrade_Loancard"
+                                },
+                                {
+                                    "Name": "BankIlluminate_Loancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loancard"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_Loancard"
+                                }
+                            ],
+                            "Biz00031453168031811": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00031453168031811",
+                                            "bizType": "贷记卡",
+                                            "OpenDate": "2005.09.22",
+                                            "CueSerialNo": "3",
+                                            "RecentPayDate": "2011.06.05",
+                                            "Cue": "2005年09月22日商业银行*--*发放的贷记卡（人民币账户），业务号X，授信额度60                                            000元，共享授信额度60                                            000元，信用/免担保。截至2011年08月05日，",
+                                            "ReportNo": "2015020900001934718780",
+                                            "CurrOverdueAmount": 5500,
+                                            "CreditLimitAmount": 60000,
+                                            "Currency": "人民币",
+                                            "ScheduledPaymentAmount": 4055,
+                                            "UsedCreditLimitAmount": 5500,
+                                            "SerialNo": "20160119000003",
+                                            "FinanceType": "商业银行",
+                                            "ScheduledPaymentDate": "2011.08.05",
+                                            "ActualPaymentAmount": 0,
+                                            "CurrOverdueCyc": 2,
+                                            "BeginMonth": "2009.09",
+                                            "FinanceOrg": "--",
+                                            "EndMonth": "2011.08",
+                                            "StateEndDate": "2011.08.05",
+                                            "GuaranteeType": "信用/免担保",
+                                            "ShareCreditLimitAmount": 60000,
+                                            "UsedHighestAmount": 7000,
+                                            "State": "止付",
+                                            "Latest24State": "23NNNNNNNNNNNNNNNNNNNN12",
+                                            "Latest6MonthUsedAvgAmount": 0
+                                        }
+                                    ],
+                                    "Name": "LoancardInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_Loancard"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_Loancard"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00031453168031811",
+                                            "SerialNo": "20160119000003",
+                                            "ChangingMonths": 7,
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "提前还款（部分）",
+                                            "TradeType": "提前还款（部分）",
+                                            "GetTime": "2014.04.23",
+                                            "ChangingAmount": 30000
+                                        }
+                                    ],
+                                    "Name": "SpecialTrade_Loancard"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00031453168031811",
+                                            "SerialNo": "20160119000006",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "特别记录测试1",
+                                            "GetTime": "2011.03.14"
+                                        },
+                                        {
+                                            "Account": "Biz00031453168031811",
+                                            "SerialNo": "20160119000007",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "本人声明",
+                                            "GetTime": "添加日期"
+                                        },
+                                        {
+                                            "Account": "Biz00031453168031811",
+                                            "SerialNo": "20160119000008",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "本报告展示的数据基本正确",
+                                            "GetTime": "2014.12.01"
+                                        }
+                                    ],
+                                    "Name": "BankIlluminate_Loancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loancard"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00031453168031811",
+                                            "SerialNo": "20160119000006",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "本报告展示的数据基本正确",
+                                            "GetTime": "2014.12.01"
+                                        },
+                                        {
+                                            "Account": "Biz00031453168031811",
+                                            "SerialNo": "20160119000007",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "异议标注",
+                                            "GetTime": "添加日期"
+                                        },
+                                        {
+                                            "Account": "Biz00031453168031811",
+                                            "SerialNo": "20160119000008",
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "这个嘛！再议吧!",
+                                            "GetTime": "2014.03.13"
+                                        }
+                                    ],
+                                    "Name": "AnnounceInfo_Loancard"
+                                }
+                            ],
+                            "Biz00021453168031801": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00021453168031801",
+                                            "bizType": "贷记卡",
+                                            "OpenDate": "2010.03.19",
+                                            "CueSerialNo": "2",
+                                            "RecentPayDate": "2010.03.18",
+                                            "Cue": "2010年03月19日商业银行*--*发放的贷记卡（人民币账户），业务号X，授信额度200                                            000元，共享授信额度200                                            000元，信用/免担保。截至2011年01月13日，",
+                                            "ReportNo": "2015020900001934718780",
+                                            "CurrOverdueAmount": 60000,
+                                            "CreditLimitAmount": 200000,
+                                            "Currency": "人民币",
+                                            "ScheduledPaymentAmount": 0,
+                                            "UsedCreditLimitAmount": 40000,
+                                            "SerialNo": "20160119000002",
+                                            "FinanceType": "商业银行",
+                                            "ScheduledPaymentDate": "2011.01.13",
+                                            "ActualPaymentAmount": 0,
+                                            "CurrOverdueCyc": 4,
+                                            "BeginMonth": "2009.02",
+                                            "FinanceOrg": "--",
+                                            "EndMonth": "2011.01",
+                                            "StateEndDate": "2011.01.13",
+                                            "GuaranteeType": "信用/免担保",
+                                            "ShareCreditLimitAmount": 200000,
+                                            "UsedHighestAmount": 200000,
+                                            "State": "冻结",
+                                            "Latest24State": "NNNNNNNNNN12345677777777",
+                                            "Latest6MonthUsedAvgAmount": 0
+                                        }
+                                    ],
+                                    "Name": "LoancardInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_Loancard"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_Loancard"
+                                },
+                                {
+                                    "Name": "SpecialTrade_Loancard"
+                                },
+                                {
+                                    "Name": "BankIlluminate_Loancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loancard"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_Loancard"
+                                }
+                            ],
+                            "Biz00071453168031861": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00071453168031861",
+                                            "SerialNo": "20160119000007",
+                                            "FinanceType": "商业银行",
+                                            "bizType": "贷记卡",
+                                            "OpenDate": "2010.03.17",
+                                            "CueSerialNo": "7",
+                                            "FinanceOrg": "--",
+                                            "Cue": "2010年03月17日商业银行*--*发放的贷记卡（人民币账户），业务号X，授信额度50                                            000元，共享授信额度50                                            000元，信用/免担保，截至2011年01月12日，账户状态为*未激活*。",
+                                            "ReportNo": "2015020900001934718780",
+                                            "StateEndDate": "2011.01.12",
+                                            "GuaranteeType": "信用/免担保",
+                                            "CreditLimitAmount": 50000,
+                                            "ShareCreditLimitAmount": 50000,
+                                            "State": "未激活",
+                                            "Currency": "人民币"
+                                        }
+                                    ],
+                                    "Name": "LoancardInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_Loancard"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_Loancard"
+                                },
+                                {
+                                    "Name": "SpecialTrade_Loancard"
+                                },
+                                {
+                                    "Name": "BankIlluminate_Loancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loancard"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_Loancard"
+                                }
+                            ],
+                            "Biz00011453168031791": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00011453168031791",
+                                            "SerialNo": "20160119000001",
+                                            "FinanceType": "商业银行",
+                                            "bizType": "贷记卡",
+                                            "OpenDate": "2010.03.18",
+                                            "CueSerialNo": "1",
+                                            "FinanceOrg": "--",
+                                            "Cue": "2010年03月18日商业银行*--*发放的贷记卡（人民币账户），业务号X，授信额度300000元，共享授信额度300000元，信用/免担保。截至2011年01月14日，账户状态为*呆账*，余额为50 000元。",
+                                            "ReportNo": "2015020900001934718780",
+                                            "StateEndDate": "2011.01.14",
+                                            "GuaranteeType": "信用/免担保",
+                                            "CreditLimitAmount": 300000,
+                                            "ShareCreditLimitAmount": 300000,
+                                            "State": "呆账",
+                                            "Currency": "人民币"
+                                        }
+                                    ],
+                                    "Name": "LoancardInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_Loancard"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_Loancard"
+                                },
+                                {
+                                    "Name": "SpecialTrade_Loancard"
+                                },
+                                {
+                                    "Name": "BankIlluminate_Loancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loancard"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_Loancard"
+                                }
+                            ],
+                            "Biz00041453168031841": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00041453168031841",
+                                            "bizType": "贷记卡",
+                                            "OpenDate": "2005.09.22",
+                                            "CueSerialNo": "4",
+                                            "RecentPayDate": "2005.09.22",
+                                            "Cue": "2005年09月22日商业银行*--*发放的贷记卡（人民币账户），业务号X，授信额度60                                            000元，共享授信额度0元，信用/免担保。截至2011年08月05日，",
+                                            "ReportNo": "2015020900001934718780",
+                                            "CurrOverdueAmount": 0,
+                                            "CreditLimitAmount": 60000,
+                                            "Currency": "人民币",
+                                            "ScheduledPaymentAmount": 0,
+                                            "UsedCreditLimitAmount": 0,
+                                            "SerialNo": "20160119000004",
+                                            "FinanceType": "商业银行",
+                                            "ScheduledPaymentDate": "2011.08.05",
+                                            "ActualPaymentAmount": 0,
+                                            "CurrOverdueCyc": 0,
+                                            "BeginMonth": "2009.09",
+                                            "FinanceOrg": "--",
+                                            "EndMonth": "2011.08",
+                                            "StateEndDate": "2011.08.05",
+                                            "GuaranteeType": "信用/免担保",
+                                            "ShareCreditLimitAmount": 0,
+                                            "UsedHighestAmount": 0,
+                                            "State": "正常",
+                                            "Latest24State": "NNNNNNNNNNNNNNNNNNNNNNNN",
+                                            "Latest6MonthUsedAvgAmount": 0
+                                        }
+                                    ],
+                                    "Name": "LoancardInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_Loancard"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_Loancard"
+                                },
+                                {
+                                    "Name": "SpecialTrade_Loancard"
+                                },
+                                {
+                                    "Name": "BankIlluminate_Loancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_Loancard"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_Loancard"
+                                }
+                            ]
+                        },
+                        "MainSection": "3.4.1",
+                        "Name": "Loancard"
+                    },
+                    {
+                        "RelativeField": "Account",
+                        "SectionListMap": {
+                            "Biz00031453168031891": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00031453168031891",
+                                            "bizType": "准贷记卡",
+                                            "OpenDate": "2005.03.22",
+                                            "CueSerialNo": "3",
+                                            "RecentPayDate": "2011.07.05",
+                                            "Cue": "2005年03月22日商业银行*--*发放的准贷记卡（人民币账户），业务号X，授信额度60                                            000元，共享授信额度60                                            000元，信用/免担保。截止2011年07月05日，",
+                                            "ReportNo": "2015020900001934718780",
+                                            "CurrOverdueAmount": 26000,
+                                            "CreditLimitAmount": 60000,
+                                            "Currency": "人民币",
+                                            "UsedCreditLimitAmount": 15000,
+                                            "SerialNo": "20160119000010",
+                                            "FinanceType": "商业银行",
+                                            "ScheduledPaymentDate": "2011.07.02",
+                                            "ActualPaymentAmount": 0,
+                                            "BeginMonth": "2009.08",
+                                            "FinanceOrg": "--",
+                                            "EndMonth": "2011.07",
+                                            "StateEndDate": "005.03.22",
+                                            "GuaranteeType": "信用/免担保",
+                                            "ShareCreditLimitAmount": 60000,
+                                            "UsedHighestAmount": 7000,
+                                            "State": "冻结",
+                                            "Latest24State": "NNNNNNNNNNNNNNNNNNNN1234",
+                                            "Latest6MonthUsedAvgAmount": 0
+                                        }
+                                    ],
+                                    "Name": "stdLoancardInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_stdLoancard"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_stdLoancard"
+                                },
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00031453168031891",
+                                            "SerialNo": "20160119000004",
+                                            "ChangingMonths": 5,
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "以资抵债",
+                                            "TradeType": "以资抵债",
+                                            "GetTime": "2014.03.21",
+                                            "ChangingAmount": 40000
+                                        },
+                                        {
+                                            "Account": "Biz00031453168031891",
+                                            "SerialNo": "20160119000005",
+                                            "ChangingMonths": 11,
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "提前还款（全部）",
+                                            "TradeType": "提前还款（全部）",
+                                            "GetTime": "2014.04.23",
+                                            "ChangingAmount": 50000
+                                        },
+                                        {
+                                            "Account": "Biz00031453168031891",
+                                            "SerialNo": "20160119000006",
+                                            "ChangingMonths": 9,
+                                            "ReportNo": "2015020900001934718780",
+                                            "Content": "担保人代还",
+                                            "TradeType": "担保人代还",
+                                            "GetTime": "2014.04.23",
+                                            "ChangingAmount": 70000
+                                        }
+                                    ],
+                                    "Name": "SpecialTrade_stdLoancard"
+                                },
+                                {
+                                    "Name": "BankIlluminate_stdLoancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_stdLoancard"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_stdLoancard"
+                                }
+                            ],
+                            "Biz00071453168032041": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00071453168032041",
+                                            "SerialNo": "20160119000014",
+                                            "FinanceType": "商业银行",
+                                            "bizType": "准贷记卡",
+                                            "OpenDate": "2005.09.27",
+                                            "CueSerialNo": "7",
+                                            "FinanceOrg": "--",
+                                            "Cue": "2005年09月27日商业银行*--*发放的准贷记卡（人民币账户），业务号X，授信额度40                                            000元，共享授信额度40                                            000元，质押（含保证金）担保，截至2011年08月03日，账户状态为*未激活*。",
+                                            "ReportNo": "2015020900001934718780",
+                                            "StateEndDate": "2011.08.03",
+                                            "GuaranteeType": "信用/免担保",
+                                            "CreditLimitAmount": 40000,
+                                            "ShareCreditLimitAmount": 40000,
+                                            "State": "未激活",
+                                            "Currency": "人民币"
+                                        }
+                                    ],
+                                    "Name": "stdLoancardInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_stdLoancard"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_stdLoancard"
+                                },
+                                {
+                                    "Name": "SpecialTrade_stdLoancard"
+                                },
+                                {
+                                    "Name": "BankIlluminate_stdLoancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_stdLoancard"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_stdLoancard"
+                                }
+                            ],
+                            "Biz00021453168031871": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00021453168031871",
+                                            "bizType": "准贷记卡",
+                                            "OpenDate": "2005.09.27",
+                                            "CueSerialNo": "2",
+                                            "RecentPayDate": "2011.06.06",
+                                            "Cue": "2005年09月27日商业银行*--*发放的准贷记卡（人民币账户），业务号X，授信额度50                                            000元，共享授信额度50                                            000元，质押（含保证金）担保。截止2011年08月04日，",
+                                            "ReportNo": "2015020900001934718780",
+                                            "CurrOverdueAmount": 5000,
+                                            "CreditLimitAmount": 50000,
+                                            "Currency": "人民币",
+                                            "UsedCreditLimitAmount": 45000,
+                                            "SerialNo": "20160119000009",
+                                            "FinanceType": "商业银行",
+                                            "ScheduledPaymentDate": "2011.08.04",
+                                            "ActualPaymentAmount": 0,
+                                            "BeginMonth": "2009.09",
+                                            "FinanceOrg": "--",
+                                            "EndMonth": "2011.08",
+                                            "StateEndDate": "005.09.27",
+                                            "GuaranteeType": "信用/免担保",
+                                            "ShareCreditLimitAmount": 50000,
+                                            "UsedHighestAmount": 50000,
+                                            "State": "止付",
+                                            "Latest24State": "############123412345677",
+                                            "Latest6MonthUsedAvgAmount": 0
+                                        }
+                                    ],
+                                    "Name": "stdLoancardInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_stdLoancard"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_stdLoancard"
+                                },
+                                {
+                                    "Name": "SpecialTrade_stdLoancard"
+                                },
+                                {
+                                    "Name": "BankIlluminate_stdLoancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_stdLoancard"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_stdLoancard"
+                                }
+                            ],
+                            "Biz00051453168032041": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00051453168032041",
+                                            "SerialNo": "20160119000012",
+                                            "FinanceType": "商业银行",
+                                            "bizType": "准贷记卡",
+                                            "OpenDate": "2005.08.12",
+                                            "CueSerialNo": "5",
+                                            "FinanceOrg": "--",
+                                            "Cue": "2005年08月12日商业银行*--*发放的准贷记卡（人民币账户），业务号X，授信额度50                                            000元，共享授信额度50                                            000元，抵押担保，截至2011年08月05日，账户状态为*销户*。",
+                                            "ReportNo": "2015020900001934718780",
+                                            "StateEndDate": "2011.08.05",
+                                            "GuaranteeType": "信用/免担保",
+                                            "CreditLimitAmount": 50000,
+                                            "ShareCreditLimitAmount": 50000,
+                                            "State": "销户",
+                                            "Currency": "人民币"
+                                        }
+                                    ],
+                                    "Name": "stdLoancardInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_stdLoancard"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_stdLoancard"
+                                },
+                                {
+                                    "Name": "SpecialTrade_stdLoancard"
+                                },
+                                {
+                                    "Name": "BankIlluminate_stdLoancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_stdLoancard"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_stdLoancard"
+                                }
+                            ],
+                            "0203000101240014435": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "0203000101240014435",
+                                            "SerialNo": "20160119000008",
+                                            "FinanceType": "商业银行",
+                                            "bizType": "准贷记卡",
+                                            "OpenDate": "2005.12.20",
+                                            "CueSerialNo": "1",
+                                            "FinanceOrg": "中国工商银行上海市分行",
+                                            "Cue": "2005年12月20日商业银行*中国工商银行上海市分行*发放的准贷记卡（人民币账户），业务号0203000101240014435，授信额度500                                            000元，共享授信额度500                                            000元，质押（含保证金）担保。截至2010年11月05日，账户状态为*呆账*，余额为0元。",
+                                            "ReportNo": "2015020900001934718780",
+                                            "StateEndDate": "2010.11.05",
+                                            "GuaranteeType": "信用/免担保",
+                                            "CreditLimitAmount": 500000,
+                                            "ShareCreditLimitAmount": 500000,
+                                            "State": "呆账",
+                                            "Currency": "人民币"
+                                        }
+                                    ],
+                                    "Name": "stdLoancardInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_stdLoancard"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_stdLoancard"
+                                },
+                                {
+                                    "Name": "SpecialTrade_stdLoancard"
+                                },
+                                {
+                                    "Name": "BankIlluminate_stdLoancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_stdLoancard"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_stdLoancard"
+                                }
+                            ],
+                            "Biz00041453168032021": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00041453168032021",
+                                            "bizType": "准贷记卡",
+                                            "OpenDate": "2005.09.27",
+                                            "CueSerialNo": "4",
+                                            "RecentPayDate": "2011.06.05",
+                                            "Cue": "2005年09月27日商业银行*--*发放的准贷记卡（人民币账户），业务号X，授信额度60                                            000元，共享授信额度60                                            000元，信用/免担保。截止2011年08月05日，",
+                                            "ReportNo": "2015020900001934718780",
+                                            "CurrOverdueAmount": 0,
+                                            "CreditLimitAmount": 60000,
+                                            "Currency": "人民币",
+                                            "UsedCreditLimitAmount": 5500,
+                                            "SerialNo": "20160119000011",
+                                            "FinanceType": "商业银行",
+                                            "ScheduledPaymentDate": "2011.08.05",
+                                            "ActualPaymentAmount": 0,
+                                            "BeginMonth": "2009.09",
+                                            "FinanceOrg": "--",
+                                            "EndMonth": "2011.08",
+                                            "StateEndDate": "005.09.27",
+                                            "GuaranteeType": "信用/免担保",
+                                            "ShareCreditLimitAmount": 60000,
+                                            "UsedHighestAmount": 7000,
+                                            "State": "正常",
+                                            "Latest24State": "NNNNNNNNNNNNNNNNNNNNN123",
+                                            "Latest6MonthUsedAvgAmount": 0
+                                        }
+                                    ],
+                                    "Name": "stdLoancardInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_stdLoancard"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_stdLoancard"
+                                },
+                                {
+                                    "Name": "SpecialTrade_stdLoancard"
+                                },
+                                {
+                                    "Name": "BankIlluminate_stdLoancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_stdLoancard"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_stdLoancard"
+                                }
+                            ],
+                            "Biz00061453168032041": [
+                                {
+                                    "Content": [
+                                        {
+                                            "Account": "Biz00061453168032041",
+                                            "SerialNo": "20160119000013",
+                                            "FinanceType": "商业银行",
+                                            "bizType": "准贷记卡",
+                                            "OpenDate": "2005.04.12",
+                                            "CueSerialNo": "6",
+                                            "FinanceOrg": "--",
+                                            "Cue": "2005年04月12日商业银行*--*发放的准贷记卡（人民币账户），业务号X，授信额度50                                            000元，共享授信额度50                                            000元，抵押担保，截至2005年10月05日，账户状态为*销户*。",
+                                            "ReportNo": "2015020900001934718780",
+                                            "StateEndDate": "2005.10.05",
+                                            "GuaranteeType": "信用/免担保",
+                                            "CreditLimitAmount": 50000,
+                                            "ShareCreditLimitAmount": 50000,
+                                            "State": "销户",
+                                            "Currency": "人民币"
+                                        }
+                                    ],
+                                    "Name": "stdLoancardInfo"
+                                },
+                                {
+                                    "Name": "Latest5YearOverduesection_stdLoancard"
+                                },
+                                {
+                                    "Name": "Latest5YearOverdueDetail_stdLoancard"
+                                },
+                                {
+                                    "Name": "SpecialTrade_stdLoancard"
+                                },
+                                {
+                                    "Name": "BankIlluminate_stdLoancard"
+                                },
+                                {
+                                    "Name": "DissentInfo_stdLoancard"
+                                },
+                                {
+                                    "Name": "AnnounceInfo_stdLoancard"
+                                }
+                            ]
+                        },
+                        "MainSection": "3.5.1",
+                        "Name": "StandardLoancard"
+                    },
+                    {
+                        "SectionList": [
+                            {
+                                "Content": [
+                                    {
+                                        "SerialNo": "20160119000001",
+                                        "Organname": "中国工商银行",
+                                        "ReportNo": "2015020900001934718780",
+                                        "GuaranteeBalance": 2000,
+                                        "Class5State": "正常",
+                                        "GuananteeMoney": 50000,
+                                        "ContractMoney": 10000,
+                                        "BillingDate": "2012.05.30",
+                                        "EndDate": "2025.01.21",
+                                        "BeginDate": "2005.07.20"
+                                    }
+                                ],
+                                "Name": "LoanGuarantee"
+                            },
+                            {
+                                "Content": [
+                                    {
+                                        "SerialNo": "20160119000001",
+                                        "Organname": "中国工商银行",
+                                        "ReportNo": "2015020900001934718780",
+                                        "UsedLimit": 2000,
+                                        "CreditLimit": 10000,
+                                        "GuananteeMoney": 30000,
+                                        "BillingDate": "2012.05.30",
+                                        "BeginDate": "2005.08.20"
+                                    },
+                                    {
+                                        "SerialNo": "20160119000002",
+                                        "Organname": "中国工商银行",
+                                        "ReportNo": "2015020900001934718780",
+                                        "UsedLimit": 2000,
+                                        "CreditLimit": 10000,
+                                        "GuananteeMoney": 30000,
+                                        "BillingDate": "2012.05.30",
+                                        "BeginDate": "2005.09.20"
+                                    }
+                                ],
+                                "Name": "CardGuarantee"
+                            }
+                        ],
+                        "Name": "Guarantee"
+                    }
+                ],
+                "Name": "CreditDetail"
+            },
+            {
+                "ChapterList": [
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "Organname": "天津河北区国税局",
+                                "ReportNo": "2015020900001934718780",
+                                "Revenuedate": "2012.01.26",
+                                "TaxArreaAmount": 0
+                            }
+                        ],
+                        "Name": "TaxArrear"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "SuitObjectMoney": 50000,
+                                "ReportNo": "2015020900001934718780",
+                                "SuitObject": "贷款合同纠纷",
+                                "RegisterDate": "2013.11.01",
+                                "CaseResult": "与该当事人相关的判决/调解结果",
+                                "CaseReason": "案由",
+                                "CaseValidatedate": "--",
+                                "Court": "立案法院名称",
+                                "ClosedType": "1"
+                            }
+                        ],
+                        "Name": "CivilJudgement"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "AlreadyEnforceObject": "--",
+                                "ReportNo": "2015020900001934718780",
+                                "EnforceObject": "--",
+                                "RegisterDate": "2011.05.03",
+                                "CaseReason": "--",
+                                "CaseState": "--",
+                                "ClosedDate": "--",
+                                "Court": "天长市人民法院",
+                                "ClosedType": "--"
+                            }
+                        ],
+                        "Name": "ForceExecution"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "Organname": "河北区国税局",
+                                "Money": 0,
+                                "ReportNo": "2015020900001934718780",
+                                "Content": "没收犯罪所得和作案工具",
+                                "EndDate": "--",
+                                "BeginDate": "2011.05.01",
+                                "Result": "--"
+                            }
+                        ],
+                        "Name": "AdminPunishment"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "ComPercent": 12,
+                                "Organname": "金融电子化公司",
+                                "Area": "北京市市辖区",
+                                "ReportNo": "2015020900001934718780",
+                                "ToMonth": "2014.04",
+                                "OwnPercent": 12,
+                                "State": "缴交",
+                                "RegisterDate": "2005.01.01",
+                                "Pay": 4000,
+                                "FirstMonth": "2005.01",
+                                "GetTime": "2004.04.01"
+                            }
+                        ],
+                        "Name": "AccFund"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "Money": 3000,
+                                "Organname": "中国金融电子化公司2",
+                                "Area": "南京市高淳县",
+                                "ReportNo": "2015020900001934718780",
+                                "MonthDuration": 78,
+                                "OwnBasicMoney": 3000,
+                                "PauseReason": "--",
+                                "State": "暂停缴费(中断)",
+                                "RegisterDate": "2000.01.01",
+                                "WorkDate": "2000.01",
+                                "GetTime": "2006.04.01"
+                            },
+                            {
+                                "SerialNo": "20160119000002",
+                                "Money": 3000,
+                                "Organname": "中国金融电子化公司2",
+                                "Area": "南京市高淳县",
+                                "ReportNo": "2015020900001934718780",
+                                "MonthDuration": 78,
+                                "OwnBasicMoney": 3000,
+                                "PauseReason": "--",
+                                "State": "暂停缴费(中断)",
+                                "RegisterDate": "2000.01.01",
+                                "WorkDate": "2000.01",
+                                "GetTime": "2006.04.01"
+                            }
+                        ],
+                        "Name": "EndowmentInsuranceDeposit"
+                    },
+                    {
+                        "Content": [],
+                        "Name": "EndowmentInsuranceDeliver"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "PersonnelType": "在职职工",
+                                "Organname": "北京曲艺团2",
+                                "Money": 1000000000,
+                                "Area": "北京市市辖区东城区",
+                                "ReportNo": "2015020900001934718780",
+                                "PassDate": "2002.01.01",
+                                "RegisterDate": "2001.01.01",
+                                "GetTime": "2007.03.01"
+                            }
+                        ],
+                        "Name": "Salvation"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "Organname": "中国曲艺协会",
+                                "Area": "北京市市辖区东城区",
+                                "ReportNo": "2015020900001934718780",
+                                "CompetencyName": "优秀相声演员",
+                                "AwardDate": "2001.01",
+                                "Grade": "国家级机构颁发的执业资格证书",
+                                "EndDate": "2010.12",
+                                "RevokeDate": "000000"
+                            }
+                        ],
+                        "Name": "Competence"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "Organname": "办法单位2",
+                                "ReportNo": "2015020900001934718780",
+                                "Content": "光荣纳税人2",
+                                "EndDate": "2022.01.01",
+                                "BeginDate": "2012.01.01"
+                            }
+                        ],
+                        "Name": "AdminAward"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "EngineCode": "车户信息覆盖",
+                                "Brand": "奥迪",
+                                "SerialNo": "20160119000001",
+                                "LicenseCode": "发动机号01",
+                                "ReportNo": "2015020900001934718780",
+                                "State": "正常",
+                                "CarType": "半挂车",
+                                "UseCharacter": "非营运",
+                                "GetTime": "2014.01.01",
+                                "PledgeFlag": "已抵押"
+                            }
+                        ],
+                        "Name": "Vehicle"
+                    },
+                    {
+                        "Content": [],
+                        "Name": "TelPayment"
+                    }
+                ],
+                "Name": "PublicInfo"
+            },
+            {
+                "ChapterList": [
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "ReportNo": "2015020900001934718780",
+                                "Content": "该贷款还款期为2005年6月至2008年6月20日。本人因2003年非典，延迟毕业一年，曾提前向工行提出展期还款",
+                                "GetTime": "2014.06.10"
+                            },
+                            {
+                                "SerialNo": "20160119000002",
+                                "ReportNo": "2015020900001934718780",
+                                "Content": "本信用报告中反映的2004年4月引起的信用卡恶意透支行为并非本人所为",
+                                "GetTime": "2014.12.01"
+                            },
+                            {
+                                "SerialNo": "20160119000003",
+                                "ReportNo": "2015020900001934718780",
+                                "Content": "本报告不太准确哦",
+                                "GetTime": "2014.12.01"
+                            }
+                        ],
+                        "Name": "AnnounceInfo"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "ReportNo": "2015020900001934718780",
+                                "Content": "此有争议111",
+                                "GetTime": "2009.03.13"
+                            },
+                            {
+                                "SerialNo": "20160119000002",
+                                "ReportNo": "2015020900001934718780",
+                                "Content": "这个不客观",
+                                "GetTime": "2014.03.13"
+                            },
+                            {
+                                "SerialNo": "20160119000003",
+                                "ReportNo": "2015020900001934718780",
+                                "Content": "这个数据有误",
+                                "GetTime": "2014.03.13"
+                            }
+                        ],
+                        "Name": "DissentInfo"
+                    }
+                ],
+                "Name": "Announce"
+            },
+            {
+                "ChapterList": [
+                    {
+                        "Content": [
+                            {
+                                "ReportNo": "2015020900001934718780",
+                                "orgSum2": 2,
+                                "recordSum3": 4,
+                                "orgSum1": 3,
+                                "recordSum2": 5,
+                                "towYearRecordSum2": 0,
+                                "towYearRecordSum1": 7,
+                                "recordSum1": 9,
+                                "towYearRecordSum3": 0
+                            }
+                        ],
+                        "Name": "RecordSummary"
+                    },
+                    {
+                        "Content": [
+                            {
+                                "SerialNo": "20160119000001",
+                                "QueryDate": "2015.02.09",
+                                "Querier": "ZE",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "信用卡审批"
+                            },
+                            {
+                                "SerialNo": "20160119000002",
+                                "QueryDate": "2015.02.09",
+                                "Querier": "中国工商银行/gsh",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "贷款审批"
+                            },
+                            {
+                                "SerialNo": "20160119000003",
+                                "QueryDate": "2015.02.09",
+                                "Querier": "中国工商银行/gsh",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "信用卡审批"
+                            },
+                            {
+                                "SerialNo": "20160119000004",
+                                "QueryDate": "2015.02.08",
+                                "Querier": "中国工商银行/gsh",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "信用卡审批"
+                            },
+                            {
+                                "SerialNo": "20160119000005",
+                                "QueryDate": "2015.02.08",
+                                "Querier": "中国工商银行/gsh",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "贷款审批"
+                            },
+                            {
+                                "SerialNo": "20160119000006",
+                                "QueryDate": "2015.02.08",
+                                "Querier": "QA",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "贷款审批"
+                            },
+                            {
+                                "SerialNo": "20160119000007",
+                                "QueryDate": "2015.02.06",
+                                "Querier": "中国工商银行/gsh",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "信用卡审批"
+                            },
+                            {
+                                "SerialNo": "20160119000008",
+                                "QueryDate": "2015.02.06",
+                                "Querier": "中国工商银行/gsh",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "贷款审批"
+                            },
+                            {
+                                "SerialNo": "20160119000009",
+                                "QueryDate": "2015.02.05",
+                                "Querier": "中国工商银行/gsh",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "贷款审批"
+                            },
+                            {
+                                "SerialNo": "20160119000010",
+                                "QueryDate": "2015.02.05",
+                                "Querier": "中国工商银行/gsh",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "信用卡审批"
+                            },
+                            {
+                                "SerialNo": "20160119000011",
+                                "QueryDate": "2015.02.05",
+                                "Querier": "QA",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "贷款审批"
+                            },
+                            {
+                                "SerialNo": "20160119000012",
+                                "QueryDate": "2015.02.04",
+                                "Querier": "中国工商银行/gsh",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "贷款审批"
+                            },
+                            {
+                                "SerialNo": "20160119000013",
+                                "QueryDate": "2015.02.04",
+                                "Querier": "QA",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "贷款审批"
+                            },
+                            {
+                                "SerialNo": "20160119000014",
+                                "QueryDate": "2015.02.04",
+                                "Querier": "ZE",
+                                "ReportNo": "2015020900001934718780",
+                                "QueryReason": "贷款审批"
+                            }
+                        ],
+                        "Name": "RecordDetail"
+                    }
+                ],
+                "Name": "QueryRecord"
+            }
+        ]
+    }
+}
