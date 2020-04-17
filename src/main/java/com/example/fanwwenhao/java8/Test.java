@@ -22,6 +22,7 @@ public class Test {
 
     public static void main(String[] args) throws InterruptedException {
         Optional<Coder> optional = Optional.ofNullable(null);
+        ReentrantLock reentrantLock;
         HashMap hashMap  =  new HashMap();
         ConcurrentHashMap concurrentHashMap;
         ArrayList arrayList;
