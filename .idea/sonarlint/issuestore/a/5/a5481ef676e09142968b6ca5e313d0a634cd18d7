@@ -1,26 +1,0 @@
-
-T
-squid:S1061"9Replace this use of System.out or System.err by a logger.(ñ˜úÚüÿÿÿÿ
-}squid:S1488D"fImmediately return this expression instead of assigning it to the temporary variable "originalString".(öÄ¡Ú
-^squid:S00112-"FDefine and throw a dedicated exception instead of using a generic one.(ØñŸï
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ø Ê
-dsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(‹«ÖÖøÿÿÿÿ
-O
-squid:S1066"9Replace this use of System.out or System.err by a logger.(îÔÛ×
-O
-squid:S106'"9Replace this use of System.out or System.err by a logger.(øÁñ«
-Psquid:S47199"9Replace charset name argument with StandardCharsets.UTF_8(´¼¡¼
-Lsquid:S4432;"0Use Galois/Counter Mode (GCM/NoPadding) instead.(ø¾¢çıÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(–Æş¤úÿÿÿÿ
-bsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(´ğ«¨
-Zsquid:S1854">Remove this useless assignment to local variable "routingKey".(ò×è·üÿÿÿÿ
-Tsquid:S1854"=Remove this useless assignment to local variable "queueName".(¤ˆ¿Í
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(…˜¹ˆúÿÿÿÿ
-Asquid:S00108(")Either remove or fill this block of code.(”ı¾
-Ksquid:S1481"/Remove this unused "routingKey" local variable.(ò×è·üÿÿÿÿ
-asquid:S2095 "EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ
-Qsquid:S1141B"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-Esquid:S1481".Remove this unused "queueName" local variable.(¤ˆ¿Í
