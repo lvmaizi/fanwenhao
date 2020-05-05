@@ -134,11 +134,6 @@
             <version>1.2.28</version>
         </dependency>
         <dependency>
-            <groupId>work.bench</groupId>
-            <artifactId>apv-model</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
             <groupId>com.github.sgroschupf</groupId>
             <artifactId>zkclient</artifactId>
             <version>0.1</version>

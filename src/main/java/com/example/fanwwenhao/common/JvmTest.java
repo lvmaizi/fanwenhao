@@ -13,6 +13,5 @@ public class JvmTest {
         System.getProperty("fwh");
         System.out.println(System.getProperty("fwh"));
         System.out.println(Runtime.getRuntime().maxMemory()/1000/1000);
-        new JvmTest().clone();
     }
 }
