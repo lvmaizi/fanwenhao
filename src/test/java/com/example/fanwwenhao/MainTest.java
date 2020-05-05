@@ -14,7 +14,7 @@ public class MainTest {
         System.out.println(MainTest.class.getClassLoader()
                 .getResource(""));
         System.out.println(String.class.getResource("/"));
-        JvmTest.main(new String[2]);
+        //JvmTest.main(new String[2]);
         System.out.println("888");
     }
 }
