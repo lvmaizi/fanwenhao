@@ -1,9 +1,13 @@
 package com.example.fanwwenhao.common;
 
-import java.io.Serializable;
 
-public class JvmTest implements  Cloneable, Serializable {
-    public static void main(String[] args) throws CloneNotSupportedException {
+import java.lang.reflect.Method;
+
+public class JvmTest {
+    public static void main(String[] args) {
+        Class ooo = JvmTest.class;
+        new JvmTest().getClass();
+        Method method;
         System.out.println("哈哈");
         System.gc();
         System.getProperty("fwh");

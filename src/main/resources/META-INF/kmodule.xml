@@ -6,4 +6,7 @@
     <kbase name="hello2" packages="rule2.*">
         <ksession name="ksession-hello2"/>
     </kbase>
+    <kbase name="jbpm" packages="jbpm.*">
+        <ksession name="ksession-process"/>
+    </kbase>
 </kmodule>
