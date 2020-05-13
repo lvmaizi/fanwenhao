@@ -13,7 +13,7 @@ public class FanwwenhaoApplicationTests {
     @Test
     public void contextLoads() {
         System.out.println(String.class.getResource("/"));
-        JvmTest.main(new String[2]);
+        //JvmTest.main(new String[2]);
     }
 
 }
