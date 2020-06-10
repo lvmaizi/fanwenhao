@@ -1,4 +1,4 @@
-package com.example.fanwwenhao.leetcode;
+package com.example.fanwwenhao.arithmetic.leedCode;
 
 import java.util.Stack;
 
