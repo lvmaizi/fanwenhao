@@ -28,5 +28,6 @@ public class MainTest {
         });
         thread.start();
         System.out.println("jjj");
+        throw new RuntimeException("sss");
     }
 }
