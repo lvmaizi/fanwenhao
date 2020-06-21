@@ -18,6 +18,10 @@ public class _33_ {
         if(start>=end)return true;
         for(int i=end-1;i>=start;i--){
             if(postorder[i]<postorder[end]){
+                //是否满足start - > i 都小于根节点
+                for (int j=start;j<=i;j++){
+                    if(postorder[j]>postorder[end])return false;
+                }
                 return verifyPostorder(postorder,start,i) && verifyPostorder(postorder,i+1,end-1);
             }
         }
