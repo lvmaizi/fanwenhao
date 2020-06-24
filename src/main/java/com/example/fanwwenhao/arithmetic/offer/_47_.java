@@ -12,14 +12,14 @@ public class _47_ {
         if (grid.length==0)return 0;
         a = new int[grid.length][grid[0].length];
         //初始化
-
+        //a[grid.length-1][grid[0].length-1] = grid[grid.length-1][grid[0].length-1];
         for (int i=grid[0].length-1;i>=0;i--){
             for (int j=grid.length-1;j>=0;j--){
                 //右
                 int r = i+1>grid[0].length-1?0:a[j][i+1];
                 //下
                 int d = j+1>grid.length-1?0:a[j+1][i];
-                a[j][i] = Math.max(r,d);
+                a[j][i] = Math.max(r,d)+grid[j][i];
             }
         }
         return a[0][0];
