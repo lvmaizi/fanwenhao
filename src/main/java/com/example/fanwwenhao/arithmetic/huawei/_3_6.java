@@ -27,35 +27,35 @@ public class _3_6 {
         }
     }
     private static int max(int [][] a){
-        //求列的最大子数组和
-        int[][] cel = new int[a.length][a[0].length];
-        for (int i=0;i<a[0].length;i++){
-            int pre = a[0][i];
-            cel[0][i] = a[0][i];
-            for (int j=1;j<a.length;j++){
-                if(pre >0){
-                    cel[j][i] = pre + a[j][i];
-                    pre = cel[j][i];
-                }else {
-                    cel[j][i] = a[j][i];
-                    pre = cel[j][i];
+        a = new int[][]{{9,-8,1,3,-2},{-3,7,6,-2,4},{6,-4,-4,8,-7}};
+        int max = a[0][0];
+        int[] result = new int[4];
+        int[] dp = new int[a[0].length];
+        for(int i=0;i<a.length;i++){
+            for (int o=0;o<dp.length;o++)dp[o]=0;
+            for (int j=i;j<a.length;j++){
+                //设置dp
+                int pre = 0,start=0;
+                for (int c=0;c<dp.length;c++){
+                    dp[c] = dp[c]+ a[j][c];
+                    if(pre>0){
+                        pre = pre+dp[c];
+                    }else {
+                        pre = dp[c];
+                        start = c;
+                    }
+                    if(pre > max){
+                        max = pre;
+                        result[0] = i;
+                        result[1] = start;
+                        result[2] = j;
+                        result[3] = c;
+                    }
                 }
+
             }
         }
-        int result = cel[0][0];
-        for (int i=0;i<cel.length;i++){
-            int pre = cel[i][0];
-            for (int j=1;j<cel[0].length;j++){
-                if(pre >0){
-                    result = Math.max(result,pre+cel[i][j]);
-                    pre = pre+cel[i][j];
-                }else {
-                    pre = cel[i][j];
-                    result = Math.max(result,cel[i][j]);
-                }
-            }
-        }
-        return result;
+        return max;
     }
 
 }
