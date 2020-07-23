@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class _5_6 {
     public static void main(String[] args) {
-        int[] input = new int[]{2,3,4};
+        int[] input = new int[]{2,3,4,5,6,7,8,9,25,21};
         Arrays.sort(input);
         List<Integer> list = new LinkedList();
         for (int i:input){
@@ -19,6 +19,7 @@ public class _5_6 {
             List l = new ArrayList();
             Iterator i = list.iterator();
             int min = (int) i.next();
+            i.remove();
             l.add(min);
             while (i.hasNext()){
                 int a = (int) i.next();
@@ -29,5 +30,6 @@ public class _5_6 {
             }
             result.add(l);
         }
+        System.out.println(result);
     }
 }
