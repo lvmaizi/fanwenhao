@@ -9,9 +9,11 @@ import java.util.concurrent.*;
 public class ThreadCache {
     public static void main(String[] args) {
         ExecutorService t = Executors.newFixedThreadPool(3);
+        Executors.newScheduledThreadPool(2);
         Executors.newCachedThreadPool();
         Executors.newSingleThreadExecutor();
         Executors.newWorkStealingPool();
+        Executors.newFixedThreadPool(3);
         t.submit(()->{
             try {
                 TimeUnit.SECONDS.sleep(300);

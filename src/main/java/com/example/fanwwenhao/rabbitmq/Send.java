@@ -21,7 +21,7 @@ public class Send {
         String queueName = "fwh_queue";
 
         ConnectionFactory connectionFactory = new ConnectionFactory();
-        connectionFactory.setHost("47.103.111.32");
+        connectionFactory.setHost("172.16.10.101");
         connectionFactory.setVirtualHost("kyoto");
         connectionFactory.setPort(5672);
         connectionFactory.setUsername("kyoto");

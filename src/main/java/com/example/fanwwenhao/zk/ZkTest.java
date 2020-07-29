@@ -1,8 +1,10 @@
 package com.example.fanwwenhao.zk;
 
+import lombok.SneakyThrows;
 import org.I0Itec.zkclient.IZkDataListener;
 import org.I0Itec.zkclient.ZkClient;
 
+import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
@@ -11,42 +13,33 @@ import java.util.concurrent.TimeUnit;
  * @Version 1.0
  */
 public class ZkTest {
-    private static int inventory = 1;
-    private static CountDownLatch countDownLatch = new CountDownLatch(10);
+    private static int inventory = 10;
     private static ZkClient zkClient = new ZkClient("dev.zk-ha.yaoxinhd.io:2181");
-
+    private static String path = "/Lock/o";
+    private static ZkLock zkLock = new ZkLock();
     public static void main(String[] args) {
-        //zkClient.createPersistent("/Lock");
-        zkClient.delete("/Lock");
-        for (int i = 0;i < 10;i ++){
-            new Thread(()->{
-                try {
-                    countDownLatch.await();
-                    if(inventory > 0){
-                        TimeUnit.SECONDS.sleep(3);
-                        inventory--;
-                    }
-                    System.out.println(inventory);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }).start();
-            countDownLatch.countDown();
-        }
+        zkClient.createEphemeral(path);
+        String p = zkClient.createEphemeralSequential(path+ "/e","data");
+        p = zkClient.createEphemeralSequential(path + "/","2");
+        p = zkClient.createEphemeralSequential(path+ "/","2");
+        List<String> l = zkClient.getChildren(path);
+        System.out.println("s");
+//        for (int i=0; i<10 ;i++){
+//            new Thread(new Runnable(){
+//                @Override
+//                public void run() {
+//                    try {
+//                        zkLock.tryLock(path);
+//                        inventory = inventory - 1;
+//                        System.out.println(inventory);
+//                    } catch (InterruptedException e) {
+//                        e.printStackTrace();
+//                    }finally {
+//                        zkLock.unLock(path);
+//                    }
+//                }
+//            }).start();
+//        }
     }
-    private static void waitForLock(){
-        System.out.println("加锁失败");
-        IZkDataListener iZkDataListener = new IZkDataListener() {
-            @Override
-            public void handleDataChange(String s, Object o) throws Exception {
 
-            }
-
-            @Override
-            public void handleDataDeleted(String s) throws Exception {
-                System.out.println("锁释放");
-            }
-        };
-        zkClient.subscribeDataChanges("/Lock",iZkDataListener);
-    }
 }
