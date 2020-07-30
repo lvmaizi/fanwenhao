@@ -5,13 +5,13 @@ package com.example.fanwwenhao.arithmetic.leedCode;
  * @Version 1.0
  */
 
-class ListNode {
-    public int val;
-    public ListNode next;
-    ListNode(int x) { val = x; }
-}
 
 public class _21_ {
+    class ListNode {
+        public int val;
+        public ListNode next;
+        ListNode(int x) { val = x; }
+    }
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0);
         ListNode cur = head;
