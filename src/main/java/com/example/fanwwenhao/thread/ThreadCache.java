@@ -19,6 +19,6 @@ public class ThreadCache {
                 TimeUnit.SECONDS.sleep(300);
             }catch (Exception e){}
         });
-
+        t.shutdown();
     }
 }
