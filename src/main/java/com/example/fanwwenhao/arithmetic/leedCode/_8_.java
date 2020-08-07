@@ -6,42 +6,32 @@ package com.example.fanwwenhao.arithmetic.leedCode;
  */
 public class _8_ {
     public int myAtoi(String str) {
-        if(str==null || str.length()<=0) return 0;
-        //正负数的最大最小值
-        int MAX=Integer.MAX_VALUE,MIN=Integer.MIN_VALUE;
-        int res=0,index=0;
-        //过滤空格
-        while(index<str.length()&&str.charAt(index)==' ')index++;
-        if(index==str.length()) return 0;
-        //取正负号
-        char firstChar=str.charAt(index);
-        boolean positive=true;
-        if(!isDigit(firstChar)){
-            if(firstChar!='+'&&firstChar!='-') return 0;
+        if(str == null || str.length() == 0)return 0;
+        int rs = 0,index = 0;
+        //去除空格
+        boolean isfu = false;
+        while (index<str.length()-1 && str.charAt(index) == ' ')index ++;
+        if((str.charAt(index) >= '0' && str.charAt(index) <= '9')){}
+        else if(str.charAt(index) == '+')index++;
+        else if(str.charAt(index) == '-'){
             index++;
-            positive = firstChar!='-';
-        }
-        //用负数保存正负数的边界，这样不会溢出
-        //正数 -2147483647
-        //负数 -2147483648
-        int limit=positive?-MAX:MIN;
-        //过滤0
-        while(index<str.length()&&str.charAt(index)=='0')index++;
-        //取每一位,在非字符截止
-        while(index<str.length()&&isDigit(str.charAt(index))){
-            int digit=str.charAt(index++)-'0';
-            if(res<(limit+digit)/10){
-                return positive?MAX:MIN;
+            isfu = true;
+        }else return 0;
+        //去除0
+        while (index < str.length()-1 && str.charAt(index) == '0')index++;
+        int min = -Integer.MAX_VALUE;
+        if(isfu)min = Integer.MIN_VALUE;
+        while (index < str.length() && str.charAt(index) >= '0' && str.charAt(index) <= '9'){
+            if((min + str.charAt(index) - '0')/10 > rs){
+                rs = min;
+                break;
             }
-            //这里的res>=limit
-            res=res*10-digit; //用减法
+            rs = rs * 10 - (str.charAt(index) - '0');
+            index ++;
         }
-        return positive?-res:res;
-    }
-    public boolean isDigit(char c){
-        return c>='0' && c<='9';
+        return isfu ? rs:-rs;
     }
     public static void main(String[] args) {
-        System.out.println(new _8_().myAtoi("  -91474836466 g"));
+        System.out.println(new _8_().myAtoi("-91283472332"));
     }
 }
