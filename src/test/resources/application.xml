@@ -18,5 +18,5 @@
 
 	<description>Loan App Configuration</description>
 
-	<bean id = "mySpring" class="com.example.fanwwenhao.MySpring"></bean>
+	<bean id = "mySpring" class="com.example.fanwenhao.MySpring"></bean>
 </beans>

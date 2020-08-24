@@ -1,4 +1,4 @@
-import com.example.fanwwenhao.drools.Message
+import com.example.fanwenhao.drools.Message
 import java.util.concurrent.atomic.AtomicInteger;
 
 global String temp;
