@@ -1,2 +1,4 @@
-package com.example.javadoc;public class JavaDoc2 {
+package com.example.javadoc;
+
+public class JavaDoc2 {
 }

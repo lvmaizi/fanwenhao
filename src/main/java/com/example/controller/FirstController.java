@@ -12,15 +12,17 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class FirstController {
-    @Autowired
-    JdbcTemplate jdbcTemplate;
+//    @Autowired
+//    JdbcTemplate jdbcTemplate;
     @RequestMapping("/test")
     public String test(){
+        if (true)
+        throw new RuntimeException("test");
         return "test success";
     }
-    @RequestMapping("/testSql")
-    public String testSql(){
-        jdbcTemplate.execute("select * from user");
-        return "test success";
-    }
+//    @RequestMapping("/testSql")
+//    public String testSql(){
+//        jdbcTemplate.execute("select * from user");
+//        return "test success";
+//    }
 }

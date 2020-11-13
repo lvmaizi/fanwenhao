@@ -1,2 +1,4 @@
-package com.example.fanwenhao.jersey;public class Server {
+package com.example.fanwenhao.jersey;
+
+public class Server {
 }
