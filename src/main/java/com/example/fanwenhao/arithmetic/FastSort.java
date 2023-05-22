@@ -9,7 +9,6 @@ public class FastSort {
         if(start >= end)return;
         int index = partition(a,start,end);
         quickSort(a,start,index-1);
-        quickSort(a,index+1,end);
     }
     public int partition(int[] a,int start,int end){
         int tmp = a[start];
